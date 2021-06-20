@@ -1,4 +1,4 @@
-package Algorithm.sort;
+package sort;
 //基数排序，基于桶排序
 //空间换时间
 //有负数不使用基数排序

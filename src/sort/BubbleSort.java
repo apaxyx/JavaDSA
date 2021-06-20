@@ -1,4 +1,4 @@
-package Algorithm.sort;
+package sort;
 //冒泡排序
 /*
   从第一个元素开始相邻两个元素比大小，大的放在后面
@@ -7,10 +7,6 @@ package Algorithm.sort;
 这样第二大的元素就放在了数组倒数第二个位置
   最后数组排序完成，一共排序(arr.length - 1)次
 */
-
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
 
 public class BubbleSort {
 

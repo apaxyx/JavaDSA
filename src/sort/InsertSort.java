@@ -1,4 +1,4 @@
-package Algorithm.sort;
+package sort;
 //插入排序
 /*
   第一个元素为有序，其余元素为无序
@@ -9,10 +9,6 @@ package Algorithm.sort;
 比较到有序表第一个元素或者找到一个元素比无序表中的元素大，则把这个元素位置放上无序表中的这个元素（此时，该位
 置上的原元素已经移动到它的下一位，其后的有序表中的元素也都在之前的过程中后移了一位）
 */
-
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
 
 public class InsertSort {
     public static void sort(int[] arr) {

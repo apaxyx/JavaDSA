@@ -1,4 +1,4 @@
-package Algorithm.sort;
+package sort;
 /*
 合并排序
 采用分治思想
