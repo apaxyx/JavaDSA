@@ -2,7 +2,7 @@ package Algorithm.sort;
 
 public class QuickSort {
     public static void sort(int[] arr, int left, int right){
-         int l = left;
+        int l = left;
         int r = right;
 
         int pivot = arr[(left + right) / 2];
