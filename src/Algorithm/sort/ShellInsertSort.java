@@ -1,4 +1,4 @@
-package sort;
+package Algorithm.sort;
 //希尔排序ShellSort
 /*
 基于插入排序，解决插入排序时小的数据在数组靠后位置时元素交换次数过多导致的性能问题

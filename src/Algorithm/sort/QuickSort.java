@@ -1,4 +1,4 @@
-package sort;
+package Algorithm.sort;
 
 public class QuickSort {
     public static void sort(int[] arr, int left, int right){

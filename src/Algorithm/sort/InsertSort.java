@@ -1,4 +1,4 @@
-package sort;
+package Algorithm.sort;
 //插入排序
 /*
   第一个元素为有序，其余元素为无序

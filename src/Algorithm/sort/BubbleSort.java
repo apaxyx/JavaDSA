@@ -1,4 +1,4 @@
-package sort;
+package Algorithm.sort;
 //冒泡排序
 /*
   从第一个元素开始相邻两个元素比大小，大的放在后面

@@ -1,4 +1,4 @@
-package sort;
+package Algorithm.sort;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -34,13 +34,13 @@ public class testSort {
         String date1Str = simpleDateFormat.format(date1);
 
         //冒泡排序
-        //BubbleSort.sort(arr);
+        //BubbleSort.Algorithm.sort(arr);
 
         //选择排序
-        //SelectSort.sort(arr);
+        //SelectSort.Algorithm.sort(arr);
 
         //插入排序
-        //InsertSort.sort(arr);
+        //InsertSort.Algorithm.sort(arr);
         //插入排序，代码结构优化版
         //InsertSort.sort_c(arr);
 
@@ -53,16 +53,16 @@ public class testSort {
         QuickSort.sort(arr1, 0, arr1.length - 1);
 
         //快速排序，C语言拷贝版，三数中值法取对比值
-        //QSort.sort(arr, 0, arr.length - 1);
+        //QSort.Algorithm.sort(arr, 0, arr.length - 1);
 
         //快速排序，简单易懂，C++Vector改JavaArrayList版
         //QSort.listSort(arr);
 
         //合并排序
-        //MergeSort.sort(arr,0, arr.length - 1, temp);
+        //MergeSort.Algorithm.sort(arr,0, arr.length - 1, temp);
 
         //基数排序
-        //RaidxSort.sort(arr);
+        //RaidxSort.Algorithm.sort(arr);
 
         //输出已经排序好的数组
         System.out.print(Arrays.toString(arr1) + "\t");
