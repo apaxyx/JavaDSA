@@ -1,6 +1,12 @@
 package Algorithm.sort;
 
 public class QuickSort {
+
+    public static void main(String[] args) {
+
+
+    }
+
     public static void sort(int[] arr, int left, int right){
         int l = left;
         int r = right;
